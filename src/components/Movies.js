@@ -51,6 +51,10 @@ const Movies = ({ authorized }) => {
         voting: 0
       }
 
+    
+    ])
+
+    setData([
       {
         director: ['Prashanth Neel'],
         stars: ['Sanjay Dutt,Raveena Tandon,Yash,Srinidhi Shetty'],
@@ -77,6 +81,8 @@ const Movies = ({ authorized }) => {
         totalVoted: 0,
         voting: 0
       }
+
+    
     ])
     // Remove this
   }
