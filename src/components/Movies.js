@@ -23,7 +23,34 @@ const Movies = ({ authorized }) => {
     //   })
 
     // Remove this
-    setData([
+      setData([
+      {
+        director: ['Prashanth Neel'],
+        stars: ['Sanjay Dutt,Raveena Tandon,Yash,Srinidhi Shetty'],
+        title: 'K.G.F: Chapter 2',
+        genre: 'action,drama',
+        voted: [
+          {
+            upVoted: [],
+            downVoted: [],
+            _id: '5d9448106e6974498e97e846',
+            updatedAt: 1569998864,
+            genre: 'action'
+          },
+          {
+            upVoted: ['5e1d4475416a070ee7add99c'],
+            downVoted: [],
+            _id: '5d9448106e6974498e97e845',
+            updatedAt: 1569998864,
+            genre: 'drama'
+          }
+        ],
+        poster:
+          'https://s3.ap-south-1.amazonaws.com/hoblist/movies/poster/1569998864699_K.G.F:_Chapter 2.jpg',
+        totalVoted: 0,
+        voting: 0
+      }
+
       {
         director: ['Prashanth Neel'],
         stars: ['Sanjay Dutt,Raveena Tandon,Yash,Srinidhi Shetty'],
@@ -100,6 +127,8 @@ const Movies = ({ authorized }) => {
         })}
       </div>
     </div>
+
+    
   )
 }
 

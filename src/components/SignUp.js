@@ -57,11 +57,12 @@ const SignUp = () => {
             }
           >
             <option>Select...</option>
-            <option>Lawer</option>
+            <option>Freelancer</option>
+            <option>Lawyer</option>
             <option>Doctor</option>
             <option>Engineer</option>
             <option>Teacher</option>
-            <option>Freelancer</option>
+            
           </select>
 
           <button>Register</button>
