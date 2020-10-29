@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgba(160, 160, 160, 0.6),
+    0px 10px 40px rgba(160, 160, 160, 0.6);
+}
+
+.card h1 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  background: rgb(245, 245, 245);
+  padding: 8px 10px;
+}
+
+form select {
+  width: 100%;
+  border: none;
+  background: rgb(245, 245, 245);
+  padding: 8px 0;
+}
+
+form button {
+  width: 100%;
+  border: none;
+  background: rgb(162, 105, 236);
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+
+form button:hover {
+  background: rgb(100, 32, 189);
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 14px;
+}
+
+section main {
+  display: flex;
+  flex: 3;
+  margin: 20px 0;
+}
+
+section button {
+  border: none;
+  background: rgb(71, 149, 221);
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 30px;
+  padding: 7px 0;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+section main .vote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+section main .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section main .content .poster img {
+  width: 60%;
+  margin: 0 15px;
+}
+
+section main .content .details {
+  margin: 0 0 0 -30px;
+  padding: 0;
+  width: 60%;
+}
+
+.division {
+  margin: 15px 0;
+}
+
+.division:nth-child() {
+  display: none;
+}
